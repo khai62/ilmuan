@@ -1,0 +1,203 @@
+name: ilmuan
+description: "Aplikasi ini dirancang untuk membantu Anda mengeksplorasi dunia para ilmuan  dengan lebih mendalam"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_staggered_grid_view: ^0.7.0
+  url_launcher: ^6.2.6
+  share_plus: ^8.0.3
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  loading_animation_widget: ^1.2.1
+  sqflite: ^2.3.3
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logoilmuan8.jpg
+    - assets/images/ilmuannobg.png
+    - assets/images/ilmuanremovebg.png
+    - assets/images/ilmuannobgrn.png
+    - assets/images/einsten1.png
+    - assets/images/ilmuan.png
+    - assets/images/einsten2.png
+    - assets/images/Al_Khawarizmi1.png
+    - assets/images/Al_Khawarizmi2.png
+    - assets/images/Alessandro_Volta1.png
+    - assets/images/Alessandro_Volta2.png
+    - assets/images/Alexander_Graham1.png
+    - assets/images/Alexander_Graham2.png
+    - assets/images/Alfred_Nobel1.png
+    - assets/images/Alfred_Nobel2.png
+    - assets/images/AntonievanLeeuwenhook1.png
+    - assets/images/AntonievanLeeuwenhook2.png
+    - assets/images/Antonio_Meucci1.png
+    - assets/images/Antonio_Meucci2.png
+    - assets/images/Artur_Fischer1.png
+    - assets/images/ArturFischer2.png
+    - assets/images/Artur_Fischer1.png
+    - assets/images/Benjamin_Holt2.png
+    - assets/images/BenjaminHolt2.png
+    - assets/images/Cailun1.png
+    - assets/images/Cailun2.png
+    - assets/images/CharlesGoodyear1.png
+    - assets/images/CharlesGoodyear2.png
+    - assets/images/ChristianBuschmann1.png
+    - assets/images/ChristianBuschmann2.png
+    - assets/images/ChristopherSholes1.png
+    - assets/images/ChristopherSholes2.png
+    - assets/images/CMarconi1.png
+    - assets/images/CMarconi2.png
+    - assets/images/CorneliusvanDrebbel1.png
+    - assets/images/CorneliusvanDrebbel2.png
+    - assets/images/DmitriMendeleev1.png
+    - assets/images/DmitriMendeleev2.png
+    - assets/images/Edwardjenner1.png
+    - assets/images/Edwardjenner2.png
+    - assets/images/Edwin_Land1.png
+    - assets/images/Edwin_Land2.png
+    - assets/images/ElisGOtis1.png
+    - assets/images/ElisGOtis2.png
+    - assets/images/EmilBerliner1.png
+    - assets/images/EmilBerliner2.png
+    - assets/images/Ernest_Swinton1.png
+    - assets/images/Ernest_Swinton2.png
+    - assets/images/Ernst_August_Friedrich_Ruska1.png
+    - assets/images/Ernst_August_Friedrich_Ruska2.png
+    - assets/images/Evangelista_Torricelli1.png
+    - assets/images/Evangelista_Torricelli2.png
+
+    - assets/images/Felix_Hoffmann1.png
+    - assets/images/Felix_Hoffmann2.png
+    - assets/images/Frank_Whittle1.png
+    - assets/images/Frank_Whittle2.png
+    - assets/images/Friedrich_Karl_von_Drais1.png
+    - assets/images/Friedrich_Karl_von_Drais2.png
+    - assets/images/Fritz_Pfleumer1.png
+    - assets/images/Fritz_Pfleumer2.png
+    - assets/images/George_Eastman1.png
+    - assets/images/George_Eastman2.png
+    - assets/images/Gottlieb_Daimler1.png
+    - assets/images/Gottlieb_Daimler2.png
+    - assets/images/Hans_Lippershey1.png
+    - assets/images/Hans_Lippershey2.png
+    - assets/images/Hans_von_Ohain1.png
+    - assets/images/Hans_von_Ohain2.png
+    - assets/images/Heinrich_Hertz1.png
+    - assets/images/Heinrich_Hertz2.png
+    - assets/images/Henrich_Focke1.png
+    - assets/images/Henrich_Focke2.png
+    - assets/images/Hugo_Junkers1.png
+    - assets/images/Hugo_Junkers2.png
+    - assets/images/Igor_Ivanovich_Sikorsky1.png
+    - assets/images/Igor_Ivanovich_Sikorsky2.png
+    - assets/images/Irving_Langmuir1.png
+    - assets/images/Irving_Langmuir2.png
+    - assets/images/Isaac_Newton1.png
+    - assets/images/Isaac_Newton2.png
+    - assets/images/James_Watt1.png
+    - assets/images/James_Watt2.png
+    - assets/images/Johann_Philipp_Reis1.png
+    - assets/images/Johann_Philipp_Reis2.png
+    - assets/images/Melitta_Bentz1.png
+    - assets/images/Melitta_Bentz2.png
+    - assets/images/Michael_Faraday1.png
+    - assets/images/Michael_Faraday2.png
+    - assets/images/Samuel_Morse1.png
+    - assets/images/Samuel_Morse2.png
+    - assets/images/Thomas_Alva_Edison1.png
+    - assets/images/Thomas_Alva_Edison2.png
+    - assets/images/Wernher_Von_Braun1.png
+    - assets/images/Wernher_Von_Braun2.png
+    - assets/images/Wilbur_0rville_Wright1.png
+    - assets/images/Wilbur_0rville_Wright2.png
+    - assets/images/Wilhelm_Conrad_Röntgen1.png
+    - assets/images/Wilhelm_Conrad_Röntgen2.png
+    - assets/images/Williarn_Sturgeon1.png
+    - assets/images/Williarn_Sturgeon2.png
+    - assets/images/Willis_Haviland_Carrier1.png
+    - assets/images/Willis_Haviland_Carrier2.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: fonts/Lora-Bold.ttf
+    - family: Arial
+      fonts:
+        - asset: fonts/Arial.ttf
+
+    - family: Andalia
+      fonts:
+        - asset: fonts/Andalia.otf
+
+    - family: Cloudy
+      fonts:
+        - asset: fonts/Cloudy_Weather.otf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
